@@ -1,0 +1,20 @@
+<iframe
+  *ngIf="showCreateForm"
+  id="create-iframe"
+  [src]="createFormIframeSrc"
+  width="600"
+  height="600"
+  style="border: none"
+></iframe>
+
+<ng-container *ngIf="socialUnlockIFrameSrc">
+  <p style="color: white">Created Social unlock</p>
+
+  <iframe
+    id="social-unlock-iframe"
+    [src]="socialUnlockIFrameSrc"
+    width="500"
+    height="500"
+    style="border: none"
+  ></iframe>
+</ng-container>
