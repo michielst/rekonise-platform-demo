@@ -8,4 +8,4 @@
 
 `npm start`
 
-Replace `platformUuid` with your platformUuid from https://platform.rekonise.com
+Replace `platformUuid` with your platformUuid from https://platform.rekonise.com in `app.component.ts`
