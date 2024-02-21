@@ -11,8 +11,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  private domain = 'http://localhost:4201';
-  private platformUuid: string = '57045692-a37d-4df2-91ef-27ccff38eec2'; // your-platform-uuid-here
+  private domain = 'https://rekonise.com';
+  private platformUuid: string = ''; // your-platform-uuid-here
 
   showCreateForm = true;
 
